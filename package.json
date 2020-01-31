@@ -1,0 +1,56 @@
+{
+  "name": "mtsaas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/moment": "^1.3.7",
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/icons": "^4.0.1",
+    "@material-ui/pickers": "^3.1.1",
+    "aws-amplify": "^1.2.3",
+    "aws-amplify-react": "^2.5.3",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
+    "react": "^16.8.6",
+    "react-big-calendar": "^0.21.0",
+    "react-color": "^2.17.3",
+    "react-dom": "^16.8.6",
+    "react-input-mask": "^2.0.4",
+    "react-number-format": "^4.2.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.3.0",
+    "react-text-mask": "^5.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "__NOTE__": "This line below is for running the backend",
+    "backend": "node backend/api/index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

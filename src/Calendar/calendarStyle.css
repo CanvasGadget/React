@@ -1,0 +1,80 @@
+.rbc-current-time-indicator {
+  background-color: orange;
+  height: 2.5px;
+}
+
+.rbc-row-segment .rbc-event-content {
+  white-space: nowrap;
+}
+
+.rbc-events-container {
+  display: grid;
+  grid-template-rows: 100%;
+}
+
+.rbc-timeslot-group {
+  min-height: 50px;
+}
+
+.rbc-day-slot .rbc-event {
+  position: relative;
+}
+
+.rbc-event {
+  background-color: #80cbc4;
+}
+
+.rbc-event--undefined {
+}
+
+.rbc-event--red::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 100%;
+  margin-right: 5px;
+  background-color: red;
+  top: 0px;
+  left: 0px;
+}
+
+.rbc-event--yellow::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 100%;
+  margin-right: 5px;
+  background-color: yellow;
+  top: 0px;
+  left: 0px;
+}
+
+.rbc-event--green::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 100%;
+  margin-right: 5px;
+  background-color: green;
+  top: 0px;
+  left: 0px;
+}
+
+.rbc-event--red,
+.rbc-event--yellow,
+.rbc-event--green {
+  padding-left: 10px;
+}
+
+.rbc-event--red-month {
+  padding-left: 10px;
+  border-left: 5px solid red;
+}
+.rbc-event--yellow-month {
+  padding-left: 10px;
+  border-left: 5px solid yellow;
+}
+.rbc-event--green-month {
+  padding-left: 10px;
+  border-left: 5px solid green;
+}
